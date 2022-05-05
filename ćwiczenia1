@@ -201,22 +201,8 @@ else:
     wynik = math.sqrt(liczba)
     print(wynik)
 '''
+#zadania
 
-#kolos
-'''
-slownik = {120: 2, 240: 4, 'dupcia': 'kupcia'}
-def calkowite(siurek):
-    lista = []
-    for x in siurek:
-        if (type(x) == int):
-            if (type(siurek[x]) == int):
-                lista.append(x)
-                lista.append(siurek[x])
-    return lista
-
-lista1 = calkowite(slownik)
-print(lista1)
-'''
 '''
 lista = [10, 6, 2, 4, 16, 8]
 for x in range(0, len(lista), 2):
