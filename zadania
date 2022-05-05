@@ -1,0 +1,42 @@
+#1.1
+'''
+slownik = {2 : 20, 'bułka' : 'pieczywo', 'liczba' : 2, 4 : 20}
+def funkcja(slownik):
+    lista =[]
+    for x in slownik:
+        if (type(x) == int):
+            if (type(slownik[x] == int)):
+                lista.append(x)
+                lista.append(slownik[x])
+    return lista
+
+z = funkcja(slownik)
+print(z)
+'''
+#2.2
+'''
+z = round(math.log(27, 3) + ((8/26) + math.sin(50))**(1/3), 3)
+print(z)
+'''
+
+#3.3
+'''
+lista = [2, 3, 4, 5, 1, 8, 3, 15, 16]
+licznik = 0
+for x in range(0, len(lista), 2):
+    if (lista[x] % 2 == 0):
+        licznik += 1
+
+print(licznik)
+'''
+#4.4
+'''
+a = input()
+b = input()
+try:
+    for x in range(int(a), int(b), 2):
+        x **= 2
+        print(x)
+except:
+    print('Błąd. Podaj liczbę całkowitą.')
+'''
